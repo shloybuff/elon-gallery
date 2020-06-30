@@ -7,7 +7,7 @@ export const Nav = ()=> {
         <div>
             <ul>
               <li><Link id='li' to="/upload">Upload</Link></li>
-              <li><Link id='li' to="/">Home</Link></li>
+              <li><Link id='li' to="/elon-gallery">Home</Link></li>
             </ul>
         </div>
     )
