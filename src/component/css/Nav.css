@@ -1,8 +1,12 @@
 ul{
-    text-decoration: none;
-    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #li{
     font-family: 'Balsamiq Sans','cursive';
+    text-decoration: none;
+    margin: 20px;
 }
