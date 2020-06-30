@@ -27,7 +27,8 @@ export const Upload = () => {
         const db = firebase.firestore();
         db.collection('elon').add({
           image: url,
-          legende: legende
+          legende: legende,
+          date : new Date()
         });  
         setUrl('')
         setLegende('')

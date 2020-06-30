@@ -13,7 +13,7 @@ function App() {
   return (
       <div className="App">
         <Nav />
-        <Route exact path='/'>
+        <Route exact path='/elon-gallery'>
             <ImageGallery />
         </Route>
         <Route path='/upload'>
